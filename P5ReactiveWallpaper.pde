@@ -4,7 +4,7 @@ void setup() {
   nightimg=loadImage("night.jpg");
   dayimg=loadImage("day.jpg");
   fullScreen();
-  frameRate(1);
+  frameRate(0.1);
 }
 void draw() {
   if(7<=hour()&&hour()<=18) {
