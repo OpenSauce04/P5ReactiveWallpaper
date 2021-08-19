@@ -14,8 +14,8 @@ void drawWallpaper() {
 }
 
 void setup() {
-  nightimg=loadImage("night.jpg");
-  dayimg=loadImage("day.jpg");
+  nightimg=loadImage("night.png");
+  dayimg=loadImage("day.png");
   fullScreen();
   frameRate(0.1);
   if (TimeZone.getDefault().inDaylightTime( new Date() )) {

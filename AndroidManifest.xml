@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.0.3" package="com.opensauce.P5ReactiveWallpaper">
-    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="29"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="1.1.0" package="com.opensauce.P5ReactiveWallpaper">
+    <uses-sdk android:targetSdkVersion="29"/>
     <uses-feature android:name="android.software.live_wallpaper"/>
     <application android:icon="@mipmap/ic_launcher" android:label="P5 Reactive Wallpaper">
         <service android:label="P5 Wallpaper" android:name=".MainService" android:permission="android.permission.BIND_WALLPAPER">
